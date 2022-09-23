@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+   background-image: url("img/CondeNasty_1.jpg");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: black;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.marquee-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+marquee {
+    color: rgb(255, 0, 38);
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bold;
+    /* mix-blend-mode: difference; */
+}
